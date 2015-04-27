@@ -5,7 +5,7 @@
 
 ## Installation
 
-    $ component install cristiandouce/timeago
+    `$ npm install timeago`
 
 ## API
 

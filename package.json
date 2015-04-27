@@ -1,0 +1,26 @@
+{
+  "name": "timeago",
+  "version": "0.0.1",
+  "description": "Simple timeago component with moment.js i18n support.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfresco/timeago.git"
+  },
+  "author": "DemocracyOS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfresco/timeago/issues"
+  },
+  "homepage": "https://github.com/jfresco/timeago",
+  "keywords": ["time", "ago", "i18n"],
+  "dependencies": {
+    "moment": "^2.10.2"
+  }
+}

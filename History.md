@@ -1,6 +1,5 @@
 
-0.0.1 / 2014-01-24
+0.0.1 / 2015-04-27
 ==================
 
- * Update component.json
- * first commit
+ * Drop component(1) support
