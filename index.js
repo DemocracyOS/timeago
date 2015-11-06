@@ -6,6 +6,30 @@ var moment = require('moment')
   , half = 1000 * 30
   , o = document.querySelectorAll.bind(document);
 
+/*
+ * I have to require explicitly all locales I want to use
+ * because Browserify only put in its bundle the required modules.
+ * More here: https://github.com/moment/moment/issues/2007
+ */
+
+require('moment/locale/ca');
+require('moment/locale/de');
+require('moment/locale/el');
+require('moment/locale/es');
+require('moment/locale/fi');
+require('moment/locale/fr');
+require('moment/locale/gl');
+require('moment/locale/hu');
+require('moment/locale/it');
+require('moment/locale/nl');
+require('moment/locale/pl');
+require('moment/locale/pt');
+require('moment/locale/ru');
+require('moment/locale/sq');
+require('moment/locale/sv');
+require('moment/locale/uk');
+require('moment/locale/zh-tw');
+
 module.exports = Timeago;
 
 /**
